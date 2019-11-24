@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+body {
+    text-align: center;
+    background-color: orchid;
+    animation-name: nice;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    font-size: 250%;
+    color: white;
+}
+
+@keyframes nice {
+    0% {background-color: orchid;}
+    50% {background-color: plum;}
+    100% {background-color: orchid;}
+}
